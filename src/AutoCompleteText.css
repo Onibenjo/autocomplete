@@ -1,0 +1,64 @@
+.autocompleteText {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.autocompleteText input {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4), 0 2px 4px 1px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(40, 214, 245);
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input:focus {
+    background: gray;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid black;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    max-height: 50vmin;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+li:hover {
+    background: rgba(120, 120, 120, 0.8);
+    /* background: gray; */
+    color: #fff;
+}
+
+.hello {
+    animation: hello 2s infinite linear;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@keyframes hello {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: translateY(-100px);
+        transform: scale(1);
+    }
+}
